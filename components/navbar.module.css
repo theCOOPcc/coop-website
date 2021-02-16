@@ -6,12 +6,12 @@
     color: var(--green);
     display:flex;
     justify-content: flex-end;
-    padding:20px;
+    padding: 2% 5% 5% 0%;
 }
 .wrapper {
     display: flex;
-    justify-content: space-between;
-    width: 45vw;
+    /* justify-content: space-between; */
+    /* width: 45vw; */
 }
 .mentor {
     color: var(--green);
@@ -30,6 +30,7 @@
     height: 50px;
     font-size: 18px;
     font-weight: 600;
+    border: 0;
 }
 /* From Figma's Hamburger */
 .hamburglar {
