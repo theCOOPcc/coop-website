@@ -10,6 +10,8 @@
 }
 .wrapper {
     display: flex;
+    justify-content: space-between;
+    width: 45vw;
 }
 .mentor {
     color: var(--green);
