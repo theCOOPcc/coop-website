@@ -1,71 +1,112 @@
-.wrapper{
+.navbar {
+    width: 100%;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: var(--dark-main);
+    color: var(--green);
+    display:flex;
+    justify-content: flex-end;
+    padding:20px;
+}
+.wrapper {
+    display: flex;
+}
+.mentor {
+    color: var(--green);
+    font-size: 16px;
+    width: 176px;
+    height: 50px;
+    top: 1rem;
+    font-weight: 500;
+    justify-content: flex-start;
+}
+.button {
+    border-radius: 2px;
+    color: var(--white);
+    background-color: var(--green);
+    width: 183px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* From Figma's Hamburger */
+.hamburglar {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 576px;
+    top: 39px;
+}
+
+/* Another Hamburger Tutorial */
+/* This one looks better */
+/* https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/ */
+
+/* Below here, the Hamburger tut */
+/* https://codingislove.com/hamburger-buttons/ */
+/* .wrapper{
     position: absolute;
     top: 50%;
     left: 50%;
     width: 550px;
     transform: translate(-50%,-50%);
-}
-.navbar{
+} */
+/* .navbar{
     width: 100px;
     height: 100px;
     position: relative;
     border: 5px solid #49b293;
     cursor: pointer;
     transition: all 0.3s ease;
-}
-.navbar div{
+} */
+/* .navbar div{
     height: 8px;
     width: 60px;
     background-color: #49b293;
     position: absolute;
     transition: all 0.5s ease;
-}
-.navbar .first{
+} */
+/* .navbar .first{
     top: 25px;
     left: 20px;
-}
-
-.navbar .second{
+} */
+/* .navbar .second{
     top: 45px;
     left: 20px;
-}
-
-.navbar .third{
+} */
+/* .navbar .third{
     top: 65px;
     left: 20px;
-}
+} */
 /* 
 .navbar:hover .first {
     transform: translateY(20px) rotate(45deg);
     transition: all 0.5s ease;
 } */
-.navbar:hover .first {
+/* .navbar:hover .first {
     width:40px;
     transform: translate(-5px, 10px) rotate(50deg);
     transition: all 0.5s;
-}
+} */
 /* .navbar:hover .second {
     opacity: 0;
     transition: all 0.2s ease;
 } */
-.navbar:hover .second {
+/* .navbar:hover .second {
     opacity:0;
     transition: all 0.5s;
-}
+} */
 
 /* .navbar:hover .third{
     transform: translateY(-20px) rotate(-45deg);
     transition: all 0.5s ease;
 } */
-.navbar:hover .third {
+/* .navbar:hover .third {
     width:40px;
     transform: translate(18px, -10px) rotate(-50deg);
     transition: all 0.5s;
-}
-
-.navbar:hover{
+} */
+/* .navbar:hover{
     border-radius:50%;
     transition: all 0.3s ease;  
-}
-
-/* https://codingislove.com/hamburger-buttons/ */
+} */
