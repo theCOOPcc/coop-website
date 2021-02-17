@@ -1,8 +1,11 @@
 import React from 'react';
+import css from './soundfamiliar.module.css'
 
 const SoundFamiliar = () => {
     return ( 
-        <h1> Sound Familiar? </h1>
+        <div className={css.soundfamiliar}>
+            <div className={css.title}> Does this sound familiar? </div>
+        </div>
      );
 }
  
