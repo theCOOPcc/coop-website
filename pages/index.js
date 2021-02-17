@@ -13,7 +13,10 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>The Coop - Dev</title>
+      {/* Set title for local dev */}
+      {/* <title>Local - The Coop</title> */}
+      {/* Set title for vercel dev */}
+      <title>Vercel - The Coop</title>
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property='og:title' content='theCOOP'/>
