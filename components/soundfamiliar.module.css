@@ -1,11 +1,13 @@
 .title {
-    background-color: var(--green);
-    width: 100%;
+    /* background-color: var(--green); */
+    /* width: 100%; */
+    text-align: left;
     color: var(--dark-main);
     font-weight: 900;
     border: 2px dashed #1F1216;
-    border-style: none none dotted none; 
-    padding: 10px;
+    border-style: none none dashed none; 
+    padding: 10px 0px;
+    display: inline;
     /* border- */
 }
 
