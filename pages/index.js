@@ -11,6 +11,16 @@ import ImageVisuals from '../components/ImageVisuals'
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>The Coop - Dev</title>
+      <meta charSet="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property='og:title' content='theCOOP'/>
+      <meta property='og:image' content='https://www.thecoop.cc/resources/theCOOP-linkedIN.jpg' />
+      <meta property='og:description' content='theCOOP'/>
+      <meta property='og:url' content='https://www.thecoop.cc'/>
+    </Head> 
     <div className={styles.container}>
       <NavBar />
       <Intro />
@@ -84,5 +94,6 @@ export default function Home() {
         </a>
       </footer> */}
     </div>
+    </>
   )
 }
