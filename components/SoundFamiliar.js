@@ -4,7 +4,7 @@ import css from './soundfamiliar.module.css'
 const SoundFamiliar = () => {
     return ( 
         <div className={css.soundfamiliar}>
-            <div className={css.title}> Does this sound familiar? </div>
+            <p className={css.title}> Does this sound familiar? </p>
         </div>
      );
 }
