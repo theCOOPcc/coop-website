@@ -1,0 +1,21 @@
+.title {
+    background-color: var(--green);
+    width: 100%;
+    color: var(--dark-main);
+    font-weight: 900;
+    border: 2px dashed #1F1216;
+    border-style: none none dotted none; 
+    padding: 10px;
+    /* border- */
+}
+
+.soundfamiliar {
+    width: 100%;
+    text-decoration: none;
+    background-color: var(--main);
+    color: var(--ltgrey);
+    justify-content: center;
+    padding: 2% 5% 5%;
+    font-size: 2.25rem;
+    display: inline-block;
+}
