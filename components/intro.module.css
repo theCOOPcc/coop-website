@@ -1,5 +1,6 @@
 .intro {
     width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
     text-decoration: none;
     background-color: var(--dark-main);
     color: var(--ltgrey);

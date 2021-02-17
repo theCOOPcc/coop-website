@@ -3,21 +3,23 @@
     /* width: 100%; */
     text-align: left;
     color: var(--dark-main);
-    font-weight: 900;
+    font-weight: 700;
     border: 2px dashed #1F1216;
     border-style: none none dashed none; 
     padding: 10px 0px;
     display: inline;
     /* border- */
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .soundfamiliar {
     width: 100%;
     text-decoration: none;
     background-color: var(--main);
-    color: var(--ltgrey);
+    color: var(--dark-red);
     justify-content: center;
     padding: 2% 5% 5%;
     font-size: 2.25rem;
     display: inline-block;
+    font-weight: 900;
 }
