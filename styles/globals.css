@@ -161,6 +161,8 @@ nav {
   grid-template-columns: 1fr;
   margin: 0 20px;
   height: 100%;
+  color: var(--green);
+  margin: 10px 0;
 }
 nav ul {
   display: flex;
