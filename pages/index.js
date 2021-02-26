@@ -24,7 +24,7 @@ export default function Home() {
       <meta property='og:description' content='theCOOP'/>
       <meta property='og:url' content='https://www.thecoop.cc'/>
     </Head> 
-    <div className={styles.container}>
+    <main> 
       <NavBar />
       <Intro />
       <SoundFamiliar />
@@ -32,6 +32,7 @@ export default function Home() {
       <WhatWeAreDoing />
       <GetInvolved />
       <ImageVisuals />
+    < /main>
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
