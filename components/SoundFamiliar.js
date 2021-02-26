@@ -1,5 +1,6 @@
 import React from 'react';
 import css from './soundfamiliar.module.css'
+import styles from '../styles/Main.module.css'
 
 const SoundFamiliar = () => {
     return ( 

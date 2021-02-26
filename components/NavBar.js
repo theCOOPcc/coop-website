@@ -1,6 +1,7 @@
 import React from 'react';
 import bigCss from '../styles/Home.module.css'
 import css from './navbar.module.css'
+import styles from '../styles/Main.module.css'
 
 const NavBar = () => {
     return ( 
