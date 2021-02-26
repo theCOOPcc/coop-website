@@ -1,0 +1,438 @@
+
+/*#region CSS reset */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+button{
+    border: none;
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+}
+/*#endregion*/
+
+/* colors 
+black: #1F1216;
+dark-red: #562636
+red: #F25187
+green: #00C9B1 */
+/* fonts
+font-family: proxima-nova, sans-serif;
+font-family: proxima-nova-condensed, sans-serif; 
+font-family: 'Lora', serif;
+*/
+
+body{
+    background:#1F1216;
+    font-family: proxima-nova, sans-serif;
+}
+
+main {
+    /* max-width: 1250px; */
+    margin: 0 auto;
+    /* padding: 0 40px; */
+
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+
+.padding-bot-20{
+    padding-bottom: 20px;
+}
+
+h1{
+ font-style: italic;
+font-weight: 600;
+font-size: 36px;
+line-height: 48px;
+}
+h2{
+    font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+}
+h3{
+font-family: Lora;
+font-style: italic;
+font-weight: 600;
+font-size: 24px;
+line-height: 60px;
+}
+h4{
+font-family: Lora;
+font-style: italic;
+font-weight: 600;
+font-size: 42px;
+line-height: 54px;
+}
+h5{
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+
+
+text-align: right;
+}
+
+header{
+    color: #00C9B1;
+    margin: 10px 0;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 20px;
+    height: 100%;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+    height: 100%;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li{
+ margin-left: 15px;
+}
+
+button{
+    height: 50px;
+    padding: 0 40px;
+    color: #ffffff;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.join-us{
+    background: #00C9B1;
+
+}
+
+.learn-more{
+    background: #F25187;
+}
+.page-container{
+}
+
+.slide-width{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.slide-1{
+    display: flex;
+    flex-direction: row;
+    color: #aaa;
+    height: auto;
+    min-height: 650px;
+}
+.slide-contents-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 50px 1fr 1fr 100px;
+    column-gap: 10px;
+   
+}
+
+.section-header{
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+grid-column: 1/ span 3;
+grid-row: 1/ span 1;
+border-bottom: dotted 3px ;
+margin-right: 100px;
+padding-top: 20px;
+}
+
+.logo{
+    max-width: 310px;
+}
+.main-message{
+    grid-column: 1 / span 3;
+}
+
+.hero-image{
+    grid-column: 4 / span 3;
+    padding: 20px 0 0 0; 
+}
+
+
+.slide-2{
+    display: flex;
+    flex-direction: row;
+    background: #F25187;
+    height: 768px;
+}
+
+.slide-2 .slide-contents-grid{
+    background-image: url(./resources/egg-jobseeker.svg);
+    background-position: bottom -2px left -60px;
+    background-repeat: no-repeat;
+    background-size: 58%;
+}
+
+.familiar{
+    
+}
+
+.hiring-manager{
+    grid-column: 4 / span 3;
+    padding: 10px;
+}
+
+.quote{
+    grid-column: 1/ span 3;
+    grid-row: 2/span 1;
+    color:#562636;
+}
+
+.quote-reply{
+    grid-column: 3/ span 4;
+    grid-row: 3/ span 1;
+    color: #ffffff;
+    text-align: right;
+}
+.quote-reply h3{
+    text-align: left;
+}
+.statement{
+    grid-column: 4/ span 3;
+    grid-row: 4/ span 1;
+    align-self: baseline;
+}
+
+.slide-3{
+    display: flex;
+    flex-direction: row;
+    min-height:650px;
+    padding: 20px 60px; 
+}
+
+.page-inset{
+    background: #fff;
+}
+.slide-3 p{
+    display: grid;
+    grid-column: 1/ span 6;
+    grid-row: 3/span 1;
+    text-align: center;
+    align-content: end;
+}
+.slide-3 .callout{
+    grid-column: 1/ span 6;
+    height: 300px;
+    background-image: url(./resources/black-red.svg);
+    background-repeat: no-repeat;
+}
+.slide-3 .section-header{
+    color: #00C9B1;
+    width: 310px;
+    padding: 0 0 10px 0;
+    margin:0 0 20px 40px
+}
+.slide-3 .quote-reply{
+    text-align: left;
+    width: 608px;
+    margin: 0 0 0 40px;
+}
+.page-break{
+    display:grid;
+    grid-column: 3/ span 2;
+    grid-row: 3/ span 1;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 20px;
+}
+
+.slide-4{
+    background: #00C9B1;
+
+}
+.slide-4 .section-header{
+    color:#fff;
+    grid-row: 1/ span 1;
+}
+.slide-4 h1{
+    display: grid;
+    grid-column: 1/ span 6;
+    grid-row: 2/ span 1;
+    justify-content: center;
+    padding-top: 40px;
+}
+.tiles{
+    display: grid;
+    grid-column: 1/span 6;
+    grid-row: 2/ span 2;
+    justify-content: center;
+    padding-top: 120px;
+}
+.slide-4 .page-break{
+    display: grid;
+    grid-row: 4/ span 1;
+}
+.slide-5{
+    min-height:650px;
+    color: #fff;
+    text-align: center;
+}
+
+.slide-5 .section-header{
+    text-align: left;
+}
+.slide-5 .slide-contents-grid{
+    grid-template-rows: 50px 120px 200px 1fr 1fr 100px 100px;
+}
+.slide-5 h1 {
+    display: grid;
+    grid-column: 1/ span 6;
+    grid-row: 2/ span 1;
+    margin: 40px 0 0 0;
+}
+
+.slide-5 p {
+    display: grid;
+}
+
+.par-1{
+    display: grid;
+    grid-column: 1/ span 6;
+    grid-row: 3/ span 1;
+    align-content: start;
+    
+}
+.par-2{
+    display: grid;
+    grid-column: 1/ span 6;
+    grid-row: 3/ span 1;
+    align-content: center;
+    padding-top: 20px;
+}
+
+.roles{
+    display: grid;
+    margin: 20px 
+    
+}
+.roles.engineer{
+    grid-column: 2/span 2;
+    grid-row: 4/ span 1;
+
+}
+
+.roles.designer{
+    grid-column: 4/span 2;
+    grid-row: 4/ span 1;
+
+}
+
+.roles.data-scientist{
+    grid-column: 2/span 2;
+    grid-row: 5/ span 1;
+
+}
+
+.roles.mentor{
+    grid-column: 4/span 2;
+    grid-row: 5/ span 1;
+
+}
+
+.coop-free{
+    grid-column: 1/ span 6;
+    grid-row: 6/ span 1;
+}
+.join-us-button {
+display: grid;
+grid-column: 3/span 2;
+grid-row: 6/ span 1;
+align-content: center;
+margin-top: 50px;
+
+}
