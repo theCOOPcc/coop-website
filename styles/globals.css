@@ -103,6 +103,15 @@ main {
   /* max-width: 1250px; */
   margin: 0 auto;
   /* padding: 0 40px; */
+
+  /* container css from create-next-app */
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 a {
   color: inherit;
@@ -177,15 +186,7 @@ button:hover{
 
 
 
-.container {
-  min-height: 100vh;
-  min-width: 100vw;
-  padding: 0rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 
 
 nav {
