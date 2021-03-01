@@ -89,8 +89,11 @@ body {
   --dark-main:#1F1216;
   --green: #00C9B1;
   --dark-red: #562636;
-  --grey: grey;
+  --grey: #aaa;
   --ltgrey: #C4C4C4;
+  /* new 03/01/2021 */
+  --red: #f25187;
+  --dark-green: #00a18d;
 }
 
 /* tag code from Aaron's CSS */
