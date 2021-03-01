@@ -1,8 +1,24 @@
 /* from CNA */
+
 /* @media (max-width: 600px) {
     .grid {
       width: 100%;
       flex-direction: column;
     }
   }
-   */
+*/
+
+.greenBackground {
+  background: var(--green);
+}
+
+.intro {
+  color: var(--grey);
+  min-height: 650px;
+  padding-bottom: 40px;
+}
+.slide-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
