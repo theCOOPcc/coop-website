@@ -2,8 +2,10 @@ import React from 'react';
 
 const GetInvolved = () => {
     return ( 
-        <h1> Get Involved </h1>
+        <h2> Get Involved </h2>
      );
 }
  
 export default GetInvolved
+
+// slide-5 css is just greenBackground class

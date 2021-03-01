@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhatAreWeDoing = () => {
     return ( 
-        <h1> Intro </h1>
+        <h2> What we are doing </h2>
      );
 }
  
