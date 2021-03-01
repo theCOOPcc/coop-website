@@ -24,8 +24,9 @@ export default function Home() {
       <meta property='og:description' content='theCOOP'/>
       <meta property='og:url' content='https://www.thecoop.cc'/>
     </Head> 
-    <main> 
+      <header>
       <NavBar />
+      </header>
       <Intro />
       <SoundFamiliar />
       <LearnByBreaking />
