@@ -7,6 +7,7 @@ import SoundFamiliar from '../components/SoundFamiliar'
 import LearnByBreaking from '../components/LearnByBreaking'
 import WhatWeAreDoing from '../components/WhatWeAreDoing'
 import GetInvolved from '../components/GetInvolved'
+import Footer from '../components/Footer'
 import ImageVisuals from '../components/ImageVisuals'
 
 export default function Home() {
@@ -27,12 +28,14 @@ export default function Home() {
       <header>
       <NavBar />
       </header>
+    <main> 
       <Intro />
-      <SoundFamiliar />
+      {/* <SoundFamiliar />
       <LearnByBreaking />
-      <WhatWeAreDoing />
-      <GetInvolved />
-      <ImageVisuals />
+      <WhatWeAreDoing /> */}
+      {/* <GetInvolved /> */}
+      {/* <Footer /> */}
+      {/* <ImageVisuals /> */}
     </main>
       {/* <footer className={styles.footer}>
         <a
