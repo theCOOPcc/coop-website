@@ -1,5 +1,4 @@
 import React from 'react';
-import css from './intro.module.css'
 import styles from '../styles/Main.module.css'
 
 const Intro = () => {
