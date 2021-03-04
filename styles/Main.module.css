@@ -11,14 +11,50 @@
 .greenBackground {
   background: var(--green);
 }
-
+/* called slide-1 in old code */
 .intro {
   color: var(--grey);
   min-height: 650px;
   padding-bottom: 40px;
+  margin-top: 20px;
 }
-.slide-container {
+.slideContainer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 40px;
+}
+.flexWrapper{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.mainMessage{
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+.logo{
+  max-width: 300px;
+}
+.paddingBot20{
+  padding-bottom: 20px;
+}
+.pinkText {
+  color: var(--pink);
+}
+.learnMore{
+  background: var(--main);
+}
+.learnMore:hover{
+  background: var(--hover-pink);
+  transition: background-color 150ms;
+}
+.learn-more:active{
+  background: var(--dark-red);
+  transition: background-color 150ms;
+}
+.heroImage{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
