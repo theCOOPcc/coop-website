@@ -3,6 +3,7 @@ import styles from '../styles/Main.module.css'
 import Image from 'next/image'
 import NavBar from '../components/NavBar'
 import Intro from '../components/Intro'
+import JonQuote from '../components/JonQuote'
 import SoundFamiliar from '../components/SoundFamiliar'
 import LearnByBreaking from '../components/LearnByBreaking'
 import WhatWeAreDoing from '../components/WhatWeAreDoing'
@@ -29,13 +30,14 @@ export default function Home() {
       <NavBar />
       </header>
     <main> 
-      <Intro />
+        <Intro />
+        <JonQuote />
       {/* <SoundFamiliar />
       <LearnByBreaking />
       <WhatWeAreDoing /> */}
       {/* <GetInvolved /> */}
       {/* <Footer /> */}
-      {/* <ImageVisuals /> */}
+      <ImageVisuals />
     </main>
       {/* <footer className={styles.footer}>
         <a

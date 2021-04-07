@@ -16,7 +16,8 @@ p,
 figure,
 blockquote,
 dl,
-dd {
+dd,
+q {
   margin: 0;
 }
 
@@ -180,4 +181,7 @@ nav, section, footer{
 
 header {
   margin: 10px 0;
+}
+q{
+  display: block;
 }
